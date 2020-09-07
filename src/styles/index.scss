@@ -1,18 +1,9 @@
 @import '~bootstrap/scss/functions';
 @import '~bootstrap/scss/variables';
-
-$theme-colors: (
-  "primary": #2274a5,
-  "secondary": #e6af2e,
-  "danger": #632b30,
-  "warning": #fadf63,
-  "light": #e7eb90,
-);
-
 @import 'variables';
 @import '~bootstrap/scss/bootstrap';
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 body {
-  background-color: $favColor;
+  background-color: $primaryColor;
 }
