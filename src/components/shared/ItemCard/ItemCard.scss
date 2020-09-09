@@ -1,0 +1,15 @@
+.ItemCard {
+  width: 15rem;
+  height: 45rem;
+  margin: 1rem 1rem;
+  box-shadow: 10px 10px 11px 1px rgba(0,0,0,0.75);
+  .card-img-top {
+    height: 15rem;
+  }
+  .card-body {
+    height: 30rem;
+    .card-title {
+      height: 5.5rem;
+    }
+  }
+}

@@ -8,7 +8,7 @@ const Edit = (props) => {
 
   return (
     <div className="Edit">
-      <h1>EDIT</h1>
+      <h1>EDIT STUFF</h1>
     </div>
   );
 };
