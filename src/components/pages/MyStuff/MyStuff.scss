@@ -2,10 +2,21 @@
   h1 {
     margin-top: 3rem;
   }
-  .btn-primary {
-    background-color: #2274a5 !important;
+  .btn-group {
+    margin-top: 2rem;
+    .btn-primary {
+      background-color: #2274a5 !important;
+      width: 70px;
+    }
+    .btn-secondary {
+      background-color: #632b30 !important;
+      width: 70px;
+    }
   }
-  .btn-secondary {
-    background-color: #632b30 !important;
+  .AllStuff {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
   }
 }
